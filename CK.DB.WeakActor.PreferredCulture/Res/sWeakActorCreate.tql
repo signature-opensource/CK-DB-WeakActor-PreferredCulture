@@ -1,0 +1,10 @@
+create transformer on CK.sWeakActorCreate
+as
+begin
+    add parameter @ExtendedCultureId int = 221272233;
+
+    in single part {insert into CK.tWeakActor}
+    begin
+        add column ExtendedCultureId = @ExtendedCultureId;
+    end
+end

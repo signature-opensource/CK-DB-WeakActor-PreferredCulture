@@ -1,2 +1,13 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitignore" />
+    <File Path="Directory.Build.props" />
+    <File Path="nuget.config" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="Tests/CK.DB.WeakActor.PreferredCulture.Tests/CK.DB.WeakActor.PreferredCulture.Tests.csproj" />
+  </Folder>
+  <Project Path="CK.DB.WeakActor.PreferredCulture/CK.DB.WeakActor.PreferredCulture.csproj" />
+  <Project Path="CK.IO.WeakActor.PreferredCulture/CK.IO.WeakActor.PreferredCulture.csproj" />
 </Solution>

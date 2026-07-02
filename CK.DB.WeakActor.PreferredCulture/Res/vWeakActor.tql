@@ -1,0 +1,5 @@
+create transformer on CK.vWeakActor
+as
+begin
+    add column w.ExtendedCultureId;
+end

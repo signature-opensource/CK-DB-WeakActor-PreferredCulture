@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Description>Adds a preferred ExtendedCultureId (CK.tCulture from CK.DB.Globalization) to WeakActors.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="**\*.sql;**\*.tql;**\*.y4" Exclude="bin\**;obj\**;CodeCakeBuilder\**;packages\**;@(EmbeddedResource)" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CK.DB.Actor.WeakActor" Version="0.17.2--ci.2" />
+    <PackageReference Include="CK.DB.Globalization" Version="0.1.5--ci.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CK.IO.WeakActor.PreferredCulture\CK.IO.WeakActor.PreferredCulture.csproj" />
+  </ItemGroup>
+</Project>
