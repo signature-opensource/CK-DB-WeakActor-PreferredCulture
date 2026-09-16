@@ -9,8 +9,8 @@
     <EmbeddedResource Include="**\*.sql;**\*.tql;**\*.y4" Exclude="bin\**;obj\**;CodeCakeBuilder\**;packages\**;@(EmbeddedResource)" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="CK.DB.Actor.WeakActor" Version="0.17.5" />
-    <PackageReference Include="CK.DB.Globalization" Version="0.1.7" />
+    <PackageReference Include="CK.DB.Actor.WeakActor" Version="0.17.6" />
+    <PackageReference Include="CK.DB.Globalization" Version="0.1.8" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CK.IO.WeakActor.PreferredCulture\CK.IO.WeakActor.PreferredCulture.csproj" />
