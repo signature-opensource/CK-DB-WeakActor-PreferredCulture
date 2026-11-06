@@ -5,6 +5,6 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="CK.IO.Actor" Version="3.0.0-0.cris-auth.0.ci.53" />
+    <PackageReference Include="CK.IO.Actor" Version="3.0.0-0.cris-auth.1" />
   </ItemGroup>
 </Project>
