@@ -5,6 +5,6 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="CK.IO.Actor" Version="3.0.0-0.uc.0.ci.83" />
+    <PackageReference Include="CK.IO.Actor" Version="3.0.0-0.uc.0.ci.84" />
   </ItemGroup>
 </Project>
